@@ -42,7 +42,7 @@ class ACM:
   def imprimir(self):
     # Imprime los datos generados
     for i in range (0, self.__cantidad_num):
-      print(f"{i+1}. {self.__array_num[i]} ({self.__array_num_modulo[i]:.4f})")
+      print(f"  {i+1}. {self.__array_num[i]} ({self.__array_num_modulo[i]:.4f})")
 
 ''' 
 Ejemplo:
