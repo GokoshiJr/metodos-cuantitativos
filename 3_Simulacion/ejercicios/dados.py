@@ -1,9 +1,10 @@
-import random, math
-
 """ 
 Desarrolle un programa en el que simule el lanzamiento de al menos 2 Dados
 y calcule cual es el numero que tiene mayor probabilidad de salir
 """
+
+import random, math
+
 linea = "-"*35
 result = 0
 indice = 0 # indice el num con mayor probabilidad
@@ -50,5 +51,4 @@ print(linea)
 print("  Resultado Final")
 print(linea)
 print(f"  El Numero {indice} salio {num_p} veces \n  {numeros[indice-2]/repeticiones}% de probabilidad")
-print(linea)  
-  
+print(linea)

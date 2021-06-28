@@ -1,5 +1,3 @@
-import random, math
-
 """ 
 Simulacion Monte Carlo - Integracion con simulacion
 
@@ -11,6 +9,8 @@ Ejemplo
 Area del cuadrado = 1
 Area teorica del circulo = 0.7853982 
 """
+
+import random, math
 
 ensayos = 1000000
 area_cuadrado = 2
